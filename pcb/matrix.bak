@@ -525,17 +525,6 @@ $EndComp
 Wire Wire Line
 	6525 2625 6525 2690
 $Comp
-L Device:D D19
-U 1 1 5E1853A5
-P 6525 2840
-F 0 "D19" V 6571 2761 50  0000 R CNN
-F 1 "D" V 6480 2761 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 6525 2840 50  0001 C CNN
-F 3 "~" H 6525 2840 50  0001 C CNN
-	1    6525 2840
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW20
 U 1 1 5E18539F
 P 6225 2625
@@ -1088,7 +1077,6 @@ Wire Wire Line
 Connection ~ 5925 3165
 Wire Wire Line
 	5925 3165 5925 3755
-Connection ~ 5795 2990
 Connection ~ 5795 3530
 Wire Wire Line
 	6525 3525 6525 3530
@@ -1101,13 +1089,7 @@ Connection ~ 4290 2625
 Wire Wire Line
 	3515 1995 3515 2625
 Connection ~ 3515 2625
-Wire Wire Line
-	1520 2990 3225 2990
 Connection ~ 3225 2990
-Wire Wire Line
-	3225 2990 5795 2990
-Wire Wire Line
-	8190 2990 9775 2990
 Connection ~ 9775 2990
 Wire Wire Line
 	9775 2990 10635 2990
@@ -1116,9 +1098,6 @@ Wire Wire Line
 Connection ~ 7380 3530
 Wire Wire Line
 	7380 3530 8190 3530
-Wire Wire Line
-	5795 2990 7380 2990
-Connection ~ 7380 2990
 Wire Wire Line
 	7380 2990 8190 2990
 Connection ~ 7590 3165
@@ -1304,4 +1283,42 @@ Text GLabel 780  2990 0    50   Input ~ 0
 row1
 Text GLabel 800  2360 0    50   Input ~ 0
 row0
+Connection ~ 7380 2990
+Connection ~ 5795 2990
+Wire Wire Line
+	5795 2990 6525 2990
+$Comp
+L Device:D D19
+U 1 1 5E1853A5
+P 6525 2840
+F 0 "D19" V 6571 2761 50  0000 R CNN
+F 1 "D" V 6480 2761 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6525 2840 50  0001 C CNN
+F 3 "~" H 6525 2840 50  0001 C CNN
+	1    6525 2840
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6525 2990 6525 2995
+Connection ~ 6525 2990
+Wire Wire Line
+	6525 2990 7380 2990
+Wire Wire Line
+	8190 2990 8985 2990
+Connection ~ 8985 2990
+Wire Wire Line
+	8985 2990 9775 2990
+Connection ~ 4890 2990
+Wire Wire Line
+	4890 2990 5795 2990
+Wire Wire Line
+	3225 2990 4115 2990
+Connection ~ 4115 2990
+Wire Wire Line
+	4115 2990 4890 2990
+Wire Wire Line
+	1520 2990 2415 2990
+Connection ~ 2415 2990
+Wire Wire Line
+	2415 2990 3225 2990
 $EndSCHEMATC
