@@ -443,31 +443,27 @@ U 5E2D9411
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
-Text GLabel 4260 3190 2    50   Input ~ 0
-col2
-Text GLabel 4260 1690 2    50   Input ~ 0
-col3
 Text GLabel 4255 1790 2    50   Input ~ 0
+col3
+Text GLabel 4525 1850 2    50   Input ~ 0
 col4
-Text GLabel 4250 1890 2    50   Input ~ 0
+Text GLabel 4260 1690 2    50   Input ~ 0
 col5
-Text GLabel 4250 2290 2    50   Input ~ 0
+Text GLabel 4675 2200 2    50   Input ~ 0
 col6
-Text GLabel 4225 1290 2    50   Input ~ 0
+Text GLabel 4950 1205 2    50   Input ~ 0
 col7
-Text GLabel 4225 1390 2    50   Input ~ 0
+Text GLabel 4950 1305 2    50   Input ~ 0
 col8
-Text GLabel 4230 1490 2    50   Input ~ 0
+Text GLabel 4955 1405 2    50   Input ~ 0
 col9
-Text GLabel 4230 1590 2    50   Input ~ 0
+Text GLabel 4955 1505 2    50   Input ~ 0
 col10
-Text GLabel 4265 4190 2    50   Input ~ 0
+Text GLabel 4790 4155 2    50   Input ~ 0
 row3
-Text GLabel 4265 4090 2    50   Input ~ 0
+Text GLabel 4790 4055 2    50   Input ~ 0
 row2
-Text GLabel 4230 2590 2    50   Input ~ 0
-row1
-Text GLabel 4230 2490 2    50   Input ~ 0
+Text GLabel 4655 2400 2    50   Input ~ 0
 row0
 Wire Wire Line
 	4125 1390 4225 1390
@@ -475,8 +471,6 @@ Wire Wire Line
 	4125 1490 4230 1490
 Wire Wire Line
 	4125 1590 4230 1590
-Text GLabel 4260 2890 2    50   Input ~ 0
-col0
 Connection ~ 3425 4590
 Connection ~ 3525 990 
 Connection ~ 3425 990 
@@ -521,14 +515,20 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3525 2790
 	1    0    0    -1  
 $EndComp
-Text GLabel 4265 3090 2    50   Input ~ 0
-col1
 Wire Wire Line
 	4265 3090 4125 3090
 Wire Wire Line
 	4225 1290 4125 1290
 Wire Wire Line
 	4125 3490 4230 3490
-Text GLabel 4230 3490 2    50   Input ~ 0
+Text GLabel 4450 3525 2    50   Input ~ 0
 col11
+Text GLabel 4265 3090 2    50   Input ~ 0
+col1
+Text GLabel 4260 2890 2    50   Input ~ 0
+col0
+Text GLabel 4800 2790 2    50   Input ~ 0
+row1
+Text GLabel 4260 3190 2    50   Input ~ 0
+col2
 $EndSCHEMATC

@@ -1134,8 +1134,6 @@ Wire Wire Line
 	4290 3165 4290 3755
 Connection ~ 4115 3530
 Wire Wire Line
-	4115 3530 5795 3530
-Wire Wire Line
 	3515 2625 3515 3165
 Connection ~ 3515 3165
 Wire Wire Line
@@ -1321,4 +1319,9 @@ Wire Wire Line
 Connection ~ 2415 2990
 Wire Wire Line
 	2415 2990 3225 2990
+Wire Wire Line
+	4115 3530 4890 3530
+Connection ~ 4890 3530
+Wire Wire Line
+	4890 3530 5795 3530
 $EndSCHEMATC
