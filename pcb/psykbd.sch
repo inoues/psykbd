@@ -443,45 +443,32 @@ U 5E2D9411
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
-Text GLabel 4255 1790 2    50   Input ~ 0
+Text GLabel 4225 2790 2    50   Input ~ 0
 col3
-Text GLabel 4525 1850 2    50   Input ~ 0
+Text GLabel 4230 2990 2    50   Input ~ 0
 col4
-Text GLabel 4260 1690 2    50   Input ~ 0
+Text GLabel 4230 1590 2    50   Input ~ 0
 col5
-Text GLabel 4675 2200 2    50   Input ~ 0
+Text GLabel 4265 4190 2    50   Input ~ 0
 col6
-Text GLabel 4950 1205 2    50   Input ~ 0
+Text GLabel 4265 4090 2    50   Input ~ 0
 col7
-Text GLabel 4950 1305 2    50   Input ~ 0
+Text GLabel 4265 3990 2    50   Input ~ 0
 col8
-Text GLabel 4955 1405 2    50   Input ~ 0
+Text GLabel 4275 3890 2    50   Input ~ 0
 col9
-Text GLabel 4955 1505 2    50   Input ~ 0
+Text GLabel 4275 3790 2    50   Input ~ 0
 col10
-Text GLabel 4790 4155 2    50   Input ~ 0
+Text GLabel 4260 2890 2    50   Input ~ 0
 row3
-Text GLabel 4790 4055 2    50   Input ~ 0
+Text GLabel 4250 1890 2    50   Input ~ 0
 row2
-Text GLabel 4655 2400 2    50   Input ~ 0
+Text GLabel 4230 1490 2    50   Input ~ 0
 row0
-Wire Wire Line
-	4125 1390 4225 1390
 Wire Wire Line
 	4125 1490 4230 1490
 Wire Wire Line
 	4125 1590 4230 1590
-Connection ~ 3425 4590
-Connection ~ 3525 990 
-Connection ~ 3425 990 
-Wire Wire Line
-	3625 990  3525 990 
-Wire Wire Line
-	3525 990  3425 990 
-Wire Wire Line
-	3525 4590 3425 4590
-Wire Wire Line
-	3090 4590 3425 4590
 Wire Wire Line
 	4265 4190 4125 4190
 Wire Wire Line
@@ -495,15 +482,53 @@ Wire Wire Line
 Wire Wire Line
 	4230 2490 4125 2490
 Wire Wire Line
-	4250 2290 4125 2290
-Wire Wire Line
 	4125 1890 4250 1890
 Wire Wire Line
-	4125 1790 4255 1790
+	4265 3090 4125 3090
+Text GLabel 4270 3690 2    50   Input ~ 0
+col11
+Text GLabel 4230 2590 2    50   Input ~ 0
+col1
+Text GLabel 4230 2490 2    50   Input ~ 0
+col0
+Text GLabel 4265 3090 2    50   Input ~ 0
+row1
+Text GLabel 4225 2690 2    50   Input ~ 0
+col2
 Wire Wire Line
-	4125 1690 4260 1690
+	4125 2690 4225 2690
 Wire Wire Line
-	4260 3190 4125 3190
+	4125 2790 4225 2790
+Wire Wire Line
+	4230 2990 4125 2990
+Wire Wire Line
+	4125 3690 4270 3690
+Wire Wire Line
+	4125 3790 4275 3790
+Wire Wire Line
+	4125 3890 4275 3890
+Wire Wire Line
+	4125 3990 4265 3990
+NoConn ~ 2925 1890
+NoConn ~ 4125 1990
+NoConn ~ 4125 2190
+NoConn ~ 4125 1290
+NoConn ~ 4125 1690
+NoConn ~ 4125 1790
+NoConn ~ 4125 2290
+NoConn ~ 4125 3190
+NoConn ~ 4125 3490
+Connection ~ 3425 4590
+Connection ~ 3525 990 
+Connection ~ 3425 990 
+Wire Wire Line
+	3625 990  3525 990 
+Wire Wire Line
+	3525 990  3425 990 
+Wire Wire Line
+	3525 4590 3425 4590
+Wire Wire Line
+	3090 4590 3425 4590
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 5E0DFF6A
@@ -515,20 +540,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3525 2790
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4265 3090 4125 3090
-Wire Wire Line
-	4225 1290 4125 1290
-Wire Wire Line
-	4125 3490 4230 3490
-Text GLabel 4450 3525 2    50   Input ~ 0
-col11
-Text GLabel 4265 3090 2    50   Input ~ 0
-col1
-Text GLabel 4260 2890 2    50   Input ~ 0
-col0
-Text GLabel 4800 2790 2    50   Input ~ 0
-row1
-Text GLabel 4260 3190 2    50   Input ~ 0
-col2
+NoConn ~ 4125 1390
+NoConn ~ 1460 4805
+NoConn ~ 1460 4405
 $EndSCHEMATC

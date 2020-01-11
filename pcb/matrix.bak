@@ -330,28 +330,6 @@ F 3 "" H 6225 3755 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5795 3755 5795 3820
-$Comp
-L Device:D D40
-U 1 1 5E1A768C
-P 5795 3970
-F 0 "D40" V 5841 3891 50  0000 R CNN
-F 1 "D" V 5750 3891 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5795 3970 50  0001 C CNN
-F 3 "~" H 5795 3970 50  0001 C CNN
-	1    5795 3970
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW41
-U 1 1 5E1A7686
-P 5495 3755
-F 0 "SW41" H 5495 4010 50  0000 C CNN
-F 1 "SW_PUSH" H 5495 3919 50  0000 C CNN
-F 2 "kbd:CherryMX-Hotswap-v2" H 5495 3755 50  0001 C CNN
-F 3 "" H 5495 3755 50  0000 C CNN
-	1    5495 3755
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4115 3755 4115 3820
 $Comp
@@ -1114,14 +1092,6 @@ Connection ~ 5195 2625
 Wire Wire Line
 	5195 2625 5195 3165
 Connection ~ 5195 3165
-Wire Wire Line
-	5195 3165 5195 3755
-Connection ~ 5795 4120
-Wire Wire Line
-	5795 4120 6525 4120
-Connection ~ 4890 4120
-Wire Wire Line
-	4890 4120 5795 4120
 Connection ~ 4115 4120
 Wire Wire Line
 	4115 4120 4890 4120
@@ -1249,7 +1219,6 @@ F 3 "~" H 8985 3380 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8190 4120 7380 4120
-Connection ~ 6525 4120
 Connection ~ 7380 4120
 Wire Wire Line
 	7380 4120 6525 4120
@@ -1324,4 +1293,35 @@ Wire Wire Line
 Connection ~ 4890 3530
 Wire Wire Line
 	4890 3530 5795 3530
+Connection ~ 6525 4120
+Connection ~ 4890 4120
+Wire Wire Line
+	4890 4120 5795 4120
+Wire Wire Line
+	5795 4120 6525 4120
+Connection ~ 5795 4120
+$Comp
+L Device:D D40
+U 1 1 5E1A768C
+P 5795 3970
+F 0 "D40" V 5841 3891 50  0000 R CNN
+F 1 "D" V 5750 3891 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5795 3970 50  0001 C CNN
+F 3 "~" H 5795 3970 50  0001 C CNN
+	1    5795 3970
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5195 3165 5195 3755
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 5E1A7686
+P 5495 3755
+F 0 "SW41" H 5495 4010 50  0000 C CNN
+F 1 "SW_PUSH" H 5495 3919 50  0000 C CNN
+F 2 "kbd:CherryMX-Hotswap-v2" H 5495 3755 50  0001 C CNN
+F 3 "" H 5495 3755 50  0000 C CNN
+	1    5495 3755
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
